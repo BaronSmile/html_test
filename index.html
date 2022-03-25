@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/my-reset_style.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <title>Test</title>
+</head>
+<body>
+<header class="header">
+  <div class="container header__container">
+    <h1 class="header__logo">
+      <a href="/">
+        <img src="assets/icon/Logo.svg" alt="logo">
+      </a>
+    </h1>
+    <div class="header__menu" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="header__nav">
+      <li><a class="header__nav_active" href="">Бизнес</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Цены</a></li>
+      <li><a href="#">Оформить заказ</a></li>
+    </ul>
+  </div>
+</header>
+<div class="banner">
+  <div class="container banner__container">
+    <h1 class="title banner__title"><span>Lorem ipsum</span> dolor sit ametconsectetur <span>adipiscing</span></h1>
+    <dl class="banner__list_description">
+      <dt>At vero eos et accusamus et iusto odio dignissimos ducimus!</dt>
+      <dd>Totam rem aperiam eaque ipsa</dd>
+      <dd>Sit voluptatem accusantium doloremque laudantium</dd>
+      <dd>Sed ut perspiciatis, unde omnis iste natus error</dd>
+    </dl>
+
+    <div class="banner__btns">
+      <button class="btn btn__order">заказать</button>
+      <button class="btn btn__more">подробнее</button>
+    </div>
+  </div>
+</div>
+<div class="order">
+  <div class="container">
+    <div class="order__title">
+      <h2 class="title order__title">Оформление <span>Заказа</span></h2>
+      <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+    </div>
+    <ul class="order__step">
+      <li>
+        <div class="order__circle step1"></div>
+        <span>Lorem ipsum dolorsit amet</span>
+      </li>
+      <li>
+        <div class="order__circle step2"></div>
+        <span>Сonsecteturadipiscing elit</span>
+      </li>
+      <li>
+        <div class="order__circle step3"></div>
+        <span>Sed do eiusmod tempor</span>
+      </li>
+      <li>
+        <div class="order__circle step4"></div>
+        <span>Esse cillum doloreeu fugiat</span>
+      </li>
+      <li>
+        <div class="order__circle step5"></div>
+        <span>Excepteur sint occaecat cupidatat non proident</span>
+      </li>
+    </ul>
+    <form class="order__form form">
+
+      <div class="select-box">
+        <div class="options-container">
+          <div class="option">
+            <input
+              type="radio"
+              class="radio"
+              id="sys_1"
+              name="category"
+            />
+            <label for="sys_1">Sed ut perspiciatis</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="sys_2" name="category"/>
+            <label for="sys_2">Nemo enim ipsam</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="sys_3" name="category"/>
+            <label for="sys_3">Et harum quidem</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="sys_4" name="category"/>
+            <label for="sys_4">Temporibus autem</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="sys_5" name="category"/>
+            <label for="sys_5">Itaque earum rerum</label>
+          </div>
+        </div>
+
+        <div class="selected">
+          Выберите тип системы
+        </div>
+      </div>
+      <label class="form__label"><input type="email" placeholder="Ваш e-mail" class="form__input" name="email"></label>
+      <label class="form__label"><input type="text" placeholder="Ваше имя" class="form__input" name="user_name"></label>
+
+      <label class="form__label form__range">
+        <p class="form__range_text">
+          <span>Sed ut perspiciatis, unde omnis iste natus</span>
+          <span id="rangeValue">50%</span>
+        </p>
+        <input type="range" min="0" max="100" step="1" id="formRange" name="range">
+      </label>
+      <label class="form__label form__file">
+        <input type="file" class="form__input" name="file">
+        Прикрепить файл
+      </label>
+
+      <div class="order__form_submit">
+        <button class="btn__order" type="button">Отправить</button>
+      </div>
+    </form>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container footer__container">
+    <small>
+      &copy; 2018 <span>«LoremIpsum.net»</span> Все права защищены.
+    </small>
+    <ul class="footer__payWallet">
+      <li class="qiwi">Qiwi wallet</li>
+      <li class="yandex">Yandex Money</li>
+      <li class="webMoney">Web Money</li>
+    </ul>
+    <ul class="footer__contact">
+      <li class="email"><a href="info@ipsum228.com">info@ipsum228.com</a></li>
+      <li class="vk"><a href="https://vk.com/">Мы вконтакте</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="app.js"></script>
+
+</body>
+</html>
